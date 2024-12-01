@@ -3,6 +3,13 @@
 History
 -------
 
+1.0.3 (2024-12-01)
+++++++++++++++++++
+
+* Add support for Django 5.0
+* Add support for channels 4.0
+
+
 1.0.2 (2022-01-07)
 ++++++++++++++++++
 
