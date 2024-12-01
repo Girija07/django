@@ -3,7 +3,7 @@ from django.urls import path, re_path
 from . import consumers
 from . import views
 
-app_name = 'django_private_chat2'
+app_name = 'django_private_chat3'
 websocket_urlpatterns = [
     re_path(r'^chat_ws$', consumers.ChatConsumer.as_asgi()),
 ]

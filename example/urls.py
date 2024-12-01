@@ -35,7 +35,7 @@ class UsersListView(LoginRequiredMixin, ListView):
 
 urlpatterns = [
     re_path('admin/', admin.site.urls),
-    re_path(r'', include('django_private_chat2.urls', namespace='django_private_chat2')),
+    re_path(r'', include('django_private_chat3.urls', namespace='django_private_chat3')),
     path('users/', UsersListView.as_view(), name='users_list'),
     path('', login_required(TemplateView.as_view(template_name='base.html')), name='home'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

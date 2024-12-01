@@ -1,19 +1,19 @@
 from django.test import TestCase
 
-from django_private_chat2.models import DialogsModel, MessageModel, UploadedFile
+from django_private_chat3.models import DialogsModel, MessageModel, UploadedFile
 from django.db import IntegrityError
 from .factories import DialogsModelFactory, MessageModelFactory, UserFactory, faker
 from django.test import TestCase, Client
 from django.urls import reverse, resolve
 from django.conf import settings
 from django.contrib.auth.models import AnonymousUser, User
-from django_private_chat2.serializers import serialize_message_model, serialize_dialog_model
+from django_private_chat3.serializers import serialize_message_model, serialize_dialog_model
 import json
 from channels.testing import HttpCommunicator, WebsocketCommunicator
 from channels.db import database_sync_to_async
 
-from django_private_chat2.consumers import ChatConsumer
-from django_private_chat2.consumers.db_operations import  get_groups_to_add, get_user_by_pk, get_file_by_id, \
+from django_private_chat3.consumers import ChatConsumer
+from django_private_chat3.consumers.db_operations import  get_groups_to_add, get_user_by_pk, get_file_by_id, \
     get_message_by_id, get_unread_count, mark_message_as_read, save_file_message, save_text_message
 
 

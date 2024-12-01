@@ -1,4 +1,4 @@
-* django_private_chat2 version:
+* django_private_chat3 version:
 * Django version:
 * Python version:
 * Operating System:

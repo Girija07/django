@@ -36,7 +36,7 @@
     }
   },
   {
-    "model": "django_private_chat2.dialogsmodel",
+    "model": "django_private_chat3.dialogsmodel",
     "pk": 1,
     "fields": {
       "created": "2021-03-21T06:49:09.925Z",
@@ -46,7 +46,7 @@
     }
   },
   {
-    "model": "django_private_chat2.messagemodel",
+    "model": "django_private_chat3.messagemodel",
     "pk": 1,
     "fields": {
       "created": "2021-03-21T06:49:09.921Z",

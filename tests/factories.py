@@ -13,7 +13,7 @@ from factory import lazy_attribute
 from factory.django import DjangoModelFactory, FileField
 from factory.fuzzy import FuzzyText, FuzzyInteger
 from faker import Factory as FakerFactory
-from django_private_chat2.models import DialogsModel, MessageModel
+from django_private_chat3.models import DialogsModel, MessageModel
 from django.contrib.auth.models import User
 
 faker = FakerFactory.create()

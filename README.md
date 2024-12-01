@@ -3,11 +3,11 @@ Django Private Chat3
 
 ![https://badge.fury.io/py/django_private_chat3](https://badge.fury.io/py/django_private_chat3.svg)
 
-![https://github.com/Bearle/django_private_chat3/actions](https://github.com/millerf/django_private_chat3/actions/workflows/test.yml/badge.svg?branch=master)
+![https://github.com/millerf/django_private_chat3/actions](https://github.com/millerf/django_private_chat3/actions/workflows/test.yml/badge.svg?branch=master)
 
 ![https://codecov.io/gh/millerf/django_private_chat3](https://codecov.io/gh/millerf/django_private_chat3/branch/master/graph/badge.svg)
 
-New and improved  https://github.com/Bearle/django-private-chat2
+New and improved  https://github.com/Bearle/django-private-chat2/
 
 Chat app for Django, powered by Django Channels, Websockets & Asyncio
 
@@ -16,12 +16,12 @@ Chat app for Django, powered by Django Channels, Websockets & Asyncio
 Documentation
 -------------
 
-The full documentation **will be** at <https://django-private-chat2.readthedocs.io>.
+The full documentation **will be** at <https://django-private-chat3.readthedocs.io>.
 
 Quickstart
 ----------
 
-Install django_private_chat2:
+Install django_private_chat3:
 
     pip install django_private_chat3
 
@@ -30,12 +30,12 @@ Add it to your `INSTALLED_APPS`:
 ```python
 INSTALLED_APPS = (
     ...
-    'django_private_chat3.apps.DjangoPrivateChat2Config',
+    'django_private_chat3.apps.DjangoPrivateChat3Config',
     ...
 )
 ```
 
-Add django_private_chat2's URL patterns:
+Add django_private_chat3's URL patterns:
 
 ```python
 from django.urls import re_path, include
@@ -48,7 +48,7 @@ urlpatterns = [
 ]
 ```
 
-Add django_private_chat2's websocket URLs to your `asgi.py`:
+Add django_private_chat3's websocket URLs to your `asgi.py`:
 ```python
 
 django_asgi_app = get_asgi_application()
@@ -79,7 +79,7 @@ Using github actions, we're able to have `django_private_chat3` tested against p
 
 You can view the builds here:
 
-https://github.com/millerf/django_private_chat2/actions
+https://github.com/millerf/django_private_chat3/actions
 
 The builds are composed of officially supported Django & Python combinations.
 

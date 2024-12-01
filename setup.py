@@ -11,7 +11,7 @@ except ImportError:
 
 
 def get_version(*file_paths):
-    """Retrieves the version from django_private_chat2/__init__.py"""
+    """Retrieves the version from django_private_chat3/__init__.py"""
     filename = os.path.join(os.path.dirname(__file__), *file_paths)
     version_file = open(filename).read()
     version_match = re.search(r"^__version__ = ['\"]([^'\"]*)['\"]",
@@ -21,7 +21,7 @@ def get_version(*file_paths):
     raise RuntimeError('Unable to find version string.')
 
 
-version = get_version("django_private_chat2", "__init__.py")
+version = get_version("django_private_chat3", "__init__.py")
 
 if sys.argv[-1] == 'publish':
     try:
@@ -45,21 +45,21 @@ readme = open('README.md').read()
 history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 
 setup(
-    name='django_private_chat2',
+    name='django_private_chat3',
     version=version,
     description="""Chat app for Django, powered by Django Channels, Websockets & Asyncio""",
     long_description=history,
-    author='Bearle',
-    author_email='tech@bearle.ru',
-    url='https://github.com/Bearle/django_private_chat2',
+    author='millerf',
+    author_email='fab@millerf.com',
+    url='https://github.com/Bearle/django_private_chat3',
     packages=[
-        'django_private_chat2',
+        'django_private_chat3',
     ],
     include_package_data=True,
     install_requires=['django-model-utils', 'channels'],
     license="MIT",
     zip_safe=False,
-    keywords='django_private_chat2',
+    keywords='django_private_chat3',
     classifiers=[
         'Development Status :: 4 - Beta',
         'Framework :: Django :: 3.0',

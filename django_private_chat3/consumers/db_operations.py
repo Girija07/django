@@ -1,5 +1,5 @@
 from channels.db import database_sync_to_async
-from django_private_chat2.models import MessageModel, DialogsModel, UserModel, UploadedFile
+from django_private_chat3.models import MessageModel, DialogsModel, UserModel, UploadedFile
 from typing import Set, Awaitable, Optional, Tuple
 from django.contrib.auth.models import AbstractBaseUser
 from django.core.exceptions import ValidationError

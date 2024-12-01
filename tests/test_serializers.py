@@ -1,7 +1,7 @@
 from django.test import TestCase
 
-from django_private_chat2.models import DialogsModel, MessageModel, UploadedFile
-from django_private_chat2.serializers import serialize_message_model, serialize_dialog_model, serialize_file_model
+from django_private_chat3.models import DialogsModel, MessageModel, UploadedFile
+from django_private_chat3.serializers import serialize_message_model, serialize_dialog_model, serialize_file_model
 from .factories import DialogsModelFactory, MessageModelFactory, UserFactory, faker
 
 

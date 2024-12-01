@@ -2,15 +2,15 @@
 # -*- coding: utf-8 -*-
 
 """
-test_django_private_chat2
+test_django_private_chat3
 ------------
 
-Tests for `django_private_chat2` models module.
+Tests for `django_private_chat3` models module.
 """
 
 from django.test import TestCase
 
-from django_private_chat2.models import DialogsModel, MessageModel, UploadedFile
+from django_private_chat3.models import DialogsModel, MessageModel, UploadedFile
 from django.forms.models import model_to_dict
 
 from django.db import IntegrityError

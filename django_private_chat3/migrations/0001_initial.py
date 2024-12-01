@@ -5,7 +5,7 @@ from django.db import migrations, models
 import django.db.models.deletion
 import django.db.models.manager
 import django.utils.timezone
-import django_private_chat2.models
+import django_private_chat3.models
 import model_utils.fields
 
 
@@ -26,7 +26,7 @@ class Migration(migrations.Migration):
                 ('is_removed', models.BooleanField(default=False)),
                 ('id', models.BigAutoField(primary_key=True, serialize=False, verbose_name='Id')),
                 ('text', models.TextField(blank=True, verbose_name='Text')),
-                ('file', models.FileField(blank=True, upload_to=django_private_chat2.models.user_directory_path, verbose_name='File')),
+                ('file', models.FileField(blank=True, upload_to=django_private_chat3.models.user_directory_path, verbose_name='File')),
                 ('read', models.BooleanField(default=False, verbose_name='Read')),
                 ('recipient', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='to_user', to=settings.AUTH_USER_MODEL, verbose_name='Recipient')),
                 ('sender', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='from_user', to=settings.AUTH_USER_MODEL, verbose_name='Author')),

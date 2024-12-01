@@ -13,7 +13,7 @@ Types of Contributions
 Report Bugs
 ~~~~~~~~~~~
 
-Report bugs at https://github.com/Bearle/django_private_chat2/issues.
+Report bugs at https://github.com/millerf/django_private_chat3/issues.
 
 If you are reporting a bug, please include:
 
@@ -36,14 +36,14 @@ is open to whoever wants to implement it.
 Write Documentation
 ~~~~~~~~~~~~~~~~~~~
 
-django_private_chat2 could always use more documentation, whether as part of the
-official django_private_chat2 docs, in docstrings, or even on the web in blog posts,
+django_private_chat3 could always use more documentation, whether as part of the
+official django_private_chat3 docs, in docstrings, or even on the web in blog posts,
 articles, and such.
 
 Submit Feedback
 ~~~~~~~~~~~~~~~
 
-The best way to send feedback is to file an issue at https://github.com/Bearle/django_private_chat2/issues.
+The best way to send feedback is to file an issue at https://github.com/millerf/django_private_chat3/issues.
 
 If you are proposing a feature:
 
@@ -55,17 +55,17 @@ If you are proposing a feature:
 Get Started!
 ------------
 
-Ready to contribute? Here's how to set up `django_private_chat2` for local development.
+Ready to contribute? Here's how to set up `django_private_chat3` for local development.
 
-1. Fork the `django_private_chat2` repo on GitHub.
+1. Fork the `django_private_chat3` repo on GitHub.
 2. Clone your fork locally::
 
-    $ git clone git@github.com:your_name_here/django_private_chat2.git
+    $ git clone git@github.com:your_name_here/django_private_chat3.git
 
 3. Install your local copy into a virtualenv. Assuming you have virtualenvwrapper installed, this is how you set up your fork for local development::
 
-    $ mkvirtualenv django_private_chat2
-    $ cd django_private_chat2/
+    $ mkvirtualenv django_private_chat3
+    $ cd django_private_chat3/
     $ python setup.py develop
 
 4. Create a branch for local development::
@@ -77,7 +77,7 @@ Ready to contribute? Here's how to set up `django_private_chat2` for local devel
 5. When you're done making changes, check that your changes pass flake8 and the
    tests, including testing other Python versions with tox::
 
-        $ flake8 django_private_chat2 tests
+        $ flake8 django_private_chat3 tests
         $ python setup.py test
         $ tox
 
@@ -108,4 +108,4 @@ Tips
 
 To run a subset of tests::
 
-    $ python -m unittest tests.test_django_private_chat2
+    $ python -m unittest tests.test_django_private_chat3

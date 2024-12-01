@@ -11,12 +11,12 @@ from .message_types import MessageTypes, MessageTypeMessageRead, MessageTypeFile
     OutgoingEventNewFileMessage, OutgoingEventIsTyping, OutgoingEventStoppedTyping, OutgoingEventWentOnline, OutgoingEventWentOffline
 
 from .errors import ErrorTypes, ErrorDescription
-from django_private_chat2.models import MessageModel, UploadedFile
-from django_private_chat2.serializers import serialize_file_model
+from django_private_chat3.models import MessageModel, UploadedFile
+from django_private_chat3.serializers import serialize_file_model
 from django.conf import settings
 import logging
 
-logger = logging.getLogger('django_private_chat2.chat_consumer')
+logger = logging.getLogger('django_private_chat3.chat_consumer')
 TEXT_MAX_LENGTH = getattr(settings, 'TEXT_MAX_LENGTH', 65535)
 UNAUTH_REJECT_CODE: int = 4001
 

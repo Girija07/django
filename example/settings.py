@@ -30,7 +30,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'django_private_chat2',
+    'django_private_chat3',
 
     # 3rd party
     'channels',
@@ -161,7 +161,7 @@ LOGGING = {
             'handlers': ['console'],
         }
     },
-    # Uncomment this to view django_private_chat2's logs
+    # Uncomment this to view django_private_chat3's logs
 
     # 'root': {
     #     'handlers': ['console'],
